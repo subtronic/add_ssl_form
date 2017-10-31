@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+    border: 1px solid greenyellow;
+}
+.flex-item {
+    padding: 5px;
+    margin: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.flex-item .form-row {
+    display: block;
+    margin:20px;
+}
+
+.flex-item input {
+    padding: 5px;
+}
+
+.flex-item h3.success {
+    color: darkgreen;
+}
+
+.flex-item h3.error {
+    color: tomato;
+}

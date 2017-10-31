@@ -1,0 +1,11 @@
+/**
+
+
+<?php
+clearstatcache();
+while (true){
+    if(time() - filemtime ( './nginx') < 300){
+        var_dump(time() - filemtime ( './nginx'), exec("nginx -s reload"));
+    };
+    //sleep(300);
+}
